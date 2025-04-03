@@ -8,6 +8,12 @@ body{
     text-align: center;
     margin-top: 70px;
     background: rgba(255,255,255,0.3);
+
+}
+
+.main-2{
+    background: rgba(255, 255, 255, 0.3);
+    text-align: center;
 }
 h1{
     font-size: 70px;
