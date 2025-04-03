@@ -9,11 +9,16 @@ body{
     margin-top: 70px;
     background: rgba(255,255,255,0.3);
 
+
 }
 
 .main-2{
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255,255,255,0.7);
     text-align: center;
+    margin-top: 80px;
+    color: black;
+    padding: 50px;
+    font-size: 25px;
 }
 h1{
     font-size: 70px;
@@ -22,14 +27,16 @@ p{
     font-size: 30px;
 }
 form{padding: 30px;
-    display: flex;
+
+    text-align: center;
  
 }
 .input-1{
     padding: 10px;
-    width: 80%;
+    width: 75%;
     border-radius:40px ;
     border: black;
+
 }
 .enter-button{
     border-radius:40px ;

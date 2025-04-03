@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Radar</title>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
@@ -15,7 +16,7 @@
     <main>
 <p> <strong>Type out a recipe idea or some ingredients you have on hand...</strong></p>
       <form id="generator-form">
-        <input type="text" placeholder="Enter your ingredients" required class="input-1"/>
+        <input type="text" placeholder="Enter your ingredients" required class="input-1" id="ready-meal"/>
         <input type="submit" class="enter-button"/>
       </form>
     </div>
