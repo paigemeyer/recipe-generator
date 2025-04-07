@@ -26,6 +26,10 @@ h1{
 p{
     font-size: 30px;
 }
+.idea{
+    font-size: 20px;
+
+}
 form{padding: 30px;
 
     text-align: center;
@@ -43,4 +47,12 @@ form{padding: 30px;
     margin-left: 10px;
     border: black;
     padding:10px ;
+}
+.code-who{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+a{
+    color: blue;
 }

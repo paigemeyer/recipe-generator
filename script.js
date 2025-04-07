@@ -17,6 +17,9 @@ let prompt=` User instructions: Generate a recipe with the ${instruction.value}`
 let context="you are a chef and you love to make meals with different ingredients. please create short/medium easy to follow recipes and please list the ingredients needed in bullet point form, make sure to follow the users instructions below in basic HTML and put the recipe name in a <strong> element";
 let apiUrl=`https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+let recipes= document.querySelector("#generate");
+recipes.innerHTML=`⏳Generating a recipe for you with ${instruction.value}!`;
+
 axios.get(apiUrl).then(displayRecipe);
 
 }
